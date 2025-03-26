@@ -107,22 +107,22 @@
             <Font name="System Bold" size="18.0" />
          </font>
       </Button>
-      <Button alignment="CENTER" mnemonicParsing="false" text="C" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+      <Button mnemonicParsing="true" text="C" onAction="#oneBackOnAction" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
       </Button>
-      <Button mnemonicParsing="false" text="CE" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+      <Button mnemonicParsing="true" onAction="#allNumberBackAction" text="CE" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1">
          <font>
             <Font size="18.0" />
          </font>
       </Button>
-      <Button mnemonicParsing="false" text="\%" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+      <Button mnemonicParsing="true" onAction="#handleButtonClick" text="\%" GridPane.halignment="CENTER" GridPane.rowIndex="1">
          <font>
             <Font size="18.0" />
          </font>
       </Button>
-      <Button mnemonicParsing="false" onAction="#oneBackOnAction" text="⌫" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+      <Button mnemonicParsing="true" onAction="#oneBackOnAction" text="⌫" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="1">
          <font>
             <Font size="18.0" />
          </font>
