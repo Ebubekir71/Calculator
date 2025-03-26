@@ -62,7 +62,7 @@ public class CalculatorController {
     }
 
     public void allNumberBackAction(ActionEvent actionEvent) {
-        display.setText("0");
+        display.setText("0" );
     }
 
 
